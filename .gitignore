@@ -1,0 +1,10 @@
+# Ignore compiled simulation binaries
+sim/sim_rv32i
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+Thumbs.db

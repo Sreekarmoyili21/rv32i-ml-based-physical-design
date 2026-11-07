@@ -1,0 +1,5 @@
+read_verilog rtl/rv32i_core.v
+hierarchy -check -top rv32i_core
+synth -top rv32i_core
+stat
+write_verilog -noattr data/rv32i_gate_level.v
